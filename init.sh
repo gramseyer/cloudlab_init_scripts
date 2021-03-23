@@ -9,7 +9,7 @@ set -ex
 
 PARTITION=/dev/sda4
 
-if [[ "$1" -eq "m510" ]]; then
+if [[ "$1" == "m510" ]]; then
 	PARTITION=/dev/nvme0n1p4
 fi
 
