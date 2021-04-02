@@ -25,3 +25,7 @@ sudo mount $PARTITION xfs -o discard
 
 sudo chmod -R 0777 xfs
 
+sudo apt-get install cxxtest
+sudo apt-get install golang-go
+
+
