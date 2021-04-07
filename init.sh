@@ -25,12 +25,14 @@ sudo mount $PARTITION xfs -o discard
 
 sudo chmod -R 0777 xfs
 
+sudo apt-get update
+
 sudo apt-get install cxxtest -y
 sudo apt-get install golang-go -y
 
 
-sudo add-apt-repository ethereum/ethereum -y
-sudo add-apt-repository ethereum/ethereum-dev -y
+sudo add-apt-repository ppa:ethereum/ethereum -y
+sudo add-apt-repository ppa:ethereum/ethereum-dev -y
 sudo apt-get update
 
 sudo apt-get install solc -y
