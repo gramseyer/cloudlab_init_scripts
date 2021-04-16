@@ -39,4 +39,4 @@ sudo apt-get install solc -y
 
 sudo apt-get install cgroup-tools -y
 
-sudo cgconfigparser -l ~/cloudlab_init_scripts/cgroup_configs
+sudo cgconfigparser -l ~/cloudlab_init_scripts/cgroup_configs_$1
