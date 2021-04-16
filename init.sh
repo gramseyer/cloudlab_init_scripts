@@ -17,7 +17,7 @@ sudo modprobe -v xfs
 
 sudo fdisk -l
 
-sudo mkfs.xfs $PARTITION
+sudo mkfs.xfs $PARTITION -f
 
 mkdir xfs
 
