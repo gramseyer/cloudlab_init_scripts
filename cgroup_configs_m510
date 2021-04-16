@@ -78,18 +78,3 @@ group cpu8core {
 	}
 }
 
-group cpu16core {
-	perm {
-		task {
-			uid = ramseyer;
-			gid = root;
-		} admin {
-			uid = root;
-			gid = root;
-		}
-	}
-	cpuset {
-		cpuset.cpus = 0-31;
-		cpuset.mems = 0;
-	}
-}
