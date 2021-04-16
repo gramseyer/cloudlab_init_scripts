@@ -36,3 +36,7 @@ sudo add-apt-repository ppa:ethereum/ethereum-dev -y
 sudo apt-get update
 
 sudo apt-get install solc -y
+
+sudo apt-get install cgroup-tools -y
+
+sudo cgconfigparser -l ~/cloudlab_init_scripts/cgroup_configs

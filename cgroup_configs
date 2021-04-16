@@ -1,0 +1,127 @@
+group cpu1core {
+	perm {
+		task {
+			uid = ramseyer;
+			gid = root;
+		} admin {
+			uid = root;
+			gid = root;
+		}
+	}
+	cpuset {
+		cpuset.cpus = 0-1;
+		cpuset.mems = 0;
+	}
+}
+
+group cpu2core {
+	perm {
+		task {
+			uid = ramseyer;
+			gid = root;
+		} admin {
+			uid = root;
+			gid = root;
+		}
+	}
+	cpuset {
+		cpuset.cpus = 0-3;
+		cpuset.mems = 0;
+	}
+}
+
+group cpu3core {
+	perm {
+		task {
+			uid = ramseyer;
+			gid = root;
+		} admin {
+			uid = root;
+			gid = root;
+		}
+	}
+	cpuset {
+		cpuset.cpus = 0-5;
+		cpuset.mems = 0;
+	}
+}
+
+group cpu4core {
+	perm {
+		task {
+			uid = ramseyer;
+			gid = root;
+		} admin {
+			uid = root;
+			gid = root;
+		}
+	}
+	cpuset {
+		cpuset.cpus = 0-7;
+		cpuset.mems = 0;
+	}
+}
+
+group cpu8core {
+	perm {
+		task {
+			uid = ramseyer;
+			gid = root;
+		} admin {
+			uid = root;
+			gid = root;
+		}
+	}
+	cpuset {
+		cpuset.cpus = 0-15;
+		cpuset.mems = 0;
+	}
+}
+
+group cpu16core {
+	perm {
+		task {
+			uid = ramseyer;
+			gid = root;
+		} admin {
+			uid = root;
+			gid = root;
+		}
+	}
+	cpuset {
+		cpuset.cpus = 0-31;
+		cpuset.mems = 0;
+	}
+}
+group cpu20core {
+	perm {
+		task {
+			uid = ramseyer;
+			gid = root;
+		} admin {
+			uid = root;
+			gid = root;
+		}
+	}
+	cpuset {
+		cpuset.cpus = 0-39;
+		cpuset.mems = 0;
+	}
+}
+
+group cpu32core {
+	perm {
+		task {
+			uid = ramseyer;
+			gid = root;
+		} admin {
+			uid = root;
+			gid = root;
+		}
+	}
+	cpuset {
+		cpuset.cpus = 0-63;
+		cpuset.mems = 0;
+	}
+}
+
