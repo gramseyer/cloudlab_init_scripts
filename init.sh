@@ -39,4 +39,7 @@ sudo apt-get install solc -y
 
 sudo apt-get install cgroup-tools -y
 
-sudo cgconfigparser -l ./cloudlab_init_scripts/cgroup_configs_$1
+#sudo cgconfigparser -l ./cloudlab_init_scripts/cgroup_configs_$1
+
+sudo apt-get install linux-tools-common -y
+sudo apt-get install linux-tools-5.4.0-51-generic -y
