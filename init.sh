@@ -25,6 +25,8 @@ sudo mount $PARTITION xfs -o discard
 
 sudo chmod -R 0777 xfs
 
+sudo chmod -R 0777 .
+
 sudo apt-get update
 
 sudo apt-get install cxxtest -y
