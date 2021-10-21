@@ -1,8 +1,10 @@
 cd ~/xfs
 
-git clone git@github.com:scslab/speedex.git
+git clone https://github.com/scslab/speedex.git
 cd speedex
+git submodule update --init --recursive
+
 ./autogen.sh
 ./configure
-make -j
+make test -j
 
