@@ -25,7 +25,7 @@ sudo mount $PARTITION xfs -o discard
 
 sudo chmod -R 0777 xfs
 
-sudo chmod -R 0777 .
+sudo chmod -R 0777 cloudlab_init_scripts
 
 sudo apt-get update
 
