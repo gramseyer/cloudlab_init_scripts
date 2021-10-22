@@ -6,5 +6,5 @@ git submodule update --init --recursive
 
 ./autogen.sh
 ./configure
-make test -j
+make test -j 8
 
