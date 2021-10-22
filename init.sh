@@ -51,6 +51,8 @@ sudo apt-get install python-is-python2
 
 ./cloudlab_init_scripts/install_experiment_key.sh
 
+sudo apt-get remove python-is-python2
+
 cp ./cloudlab_init_scripts/ansible_hosts /etc/ansible/hosts
 
 cd xfs
