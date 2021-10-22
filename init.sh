@@ -46,6 +46,10 @@ sudo apt-get install cgroup-tools -y
 sudo apt-get install linux-tools-common -y
 sudo apt-get install linux-tools-5.4.0-51-generic -y
 
+sudo apt-get install ansible
+sudo apt-get install python-is-python2
+
+
 cd xfs
 
 ../cloudlab_init_scripts/install_speedex.sh
