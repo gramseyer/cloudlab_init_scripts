@@ -49,6 +49,9 @@ sudo apt-get install linux-tools-5.4.0-51-generic -y
 sudo apt-get install ansible
 sudo apt-get install python-is-python2
 
+./cloudlab_init_scripts/install_experiment_key.sh
+
+cp ./cloudlab_init_scripts/ansible_hosts /etc/ansible/hosts
 
 cd xfs
 
