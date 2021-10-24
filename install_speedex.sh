@@ -11,3 +11,5 @@ git submodule update --init --recursive
 ./configure
 make -j
 
+sudo chmod -R 0777 .
+
