@@ -58,5 +58,5 @@ cp ./cloudlab_init_scripts/ansible_hosts /etc/ansible/hosts
 
 cd xfs
 
-../cloudlab_init_scripts/install_speedex.sh
+#../cloudlab_init_scripts/install_speedex.sh
 
